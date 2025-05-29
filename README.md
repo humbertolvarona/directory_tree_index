@@ -73,6 +73,70 @@ The generated JSON file is an array of objects, one for each item in the root di
 ### Example 2:
 
 ```json
+[
+  {
+    "name": "folder1",
+    "type": "folder",
+    "path": "folder1",
+    "children": [
+      {
+        "name": "file1.txt",
+        "type": "file",
+        "size": "4.21 KB",
+        "extension": "txt",
+        "path": "folder1/file1.txt",
+        "lastModified": "2024-05-28T12:30:00Z"
+      },
+      {
+        "name": "file2.pdf",
+        "type": "file",
+        "size": "256.08 KB",
+        "extension": "pdf",
+        "path": "folder1/file2.pdf",
+        "lastModified": "2024-05-28T13:10:00Z"
+      }
+    ]
+  },
+  {
+    "name": "folder2",
+    "type": "folder",
+    "path": "folder2",
+    "children": [
+      {
+        "name": "file3.jpg",
+        "type": "file",
+        "size": "1.24 MB",
+        "extension": "jpg",
+        "path": "folder2/file3.jpg",
+        "lastModified": "2024-05-28T14:40:00Z"
+      }
+    ]
+  },
+  {
+    "name": "readme.md",
+    "type": "file",
+    "size": "1.07 KB",
+    "extension": "md",
+    "path": "readme.md",
+    "lastModified": "2024-05-28T10:15:00Z"
+  },
+  {
+    "name": "manual.pdf",
+    "type": "file",
+    "size": "354.00 KB",
+    "extension": "pdf",
+    "path": "manual.pdf",
+    "lastModified": "2024-05-28T11:45:00Z"
+  },
+  {
+    "name": "logo.svg",
+    "type": "file",
+    "size": "9.23 KB",
+    "extension": "svg",
+    "path": "logo.svg",
+    "lastModified": "2024-05-28T11:50:00Z"
+  }
+]
 ```
 
 ## Notes
