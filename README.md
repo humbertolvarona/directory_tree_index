@@ -45,9 +45,11 @@ The script is useful for creating an index of files for web-based file explorers
   ./makeindex.sh data/ data-index.json renew
   ```
 
-## Output Example
+## Output Examples
 
 The generated JSON file is an array of objects, one for each item in the root directory:
+
+### Example 1:
 
 ```json
 [
@@ -66,6 +68,11 @@ The generated JSON file is an array of objects, one for each item in the root di
     "lastModified": "2024-05-28T14:00:00Z"
   }
 ]
+```
+
+### Example 2:
+
+```json
 ```
 
 ## Notes
