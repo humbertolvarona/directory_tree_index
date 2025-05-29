@@ -45,7 +45,7 @@ The script is useful for creating an index of files for web-based file explorers
   ./makeindex.sh data/ data-index.json renew
   ```
   
-or with the json index in the indexed directory itself
+* With the json index in the indexed directory itself
 
   ```bash
   ./makeindex.sh data/ data/data-index.json renew
