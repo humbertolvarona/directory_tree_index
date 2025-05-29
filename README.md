@@ -39,6 +39,12 @@ The script is useful for creating an index of files for web-based file explorers
   ./makeindex.sh data/ data-index.json
   ```
 
+  or
+
+  ```bash
+  ./makeindex.sh data/ data-index.json keep
+  ```
+
 * Always regenerate the index, overwriting previous file:
 
   ```bash
